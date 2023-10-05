@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Dela+Gothic+One&family=Play:wght@400;700&display=swap');
+body{
+    background-color: rgba(250, 162, 162, 0.981);
+    
+    font-size: 16px;
+    font-weight: normal;
+    font-family: 'Anton', sans-serif;
+}
+.avatar{
+    width: 250px;
+    border-radius: 20px;
+    box-shadow: -11px 11px 15px rgba(142, 61, 61, 0.981);
+    margin-left:25px ;   
+    
+}
+.info p{
+    color:rgb(70, 69, 68);
+    font-style: italic;
+    font-weight: bold;
+}
+.social a{
+    color: rgb(70, 69, 68);
+    text-decoration: none;
+}
+.social a:hover{
+    color: rgb(226, 141, 155);
+    text-decoration: underline;
+}
+.social{
+    background-color: rgb(232, 213, 187);
+    padding: 5px;
+    border: 5px solid salmon;
+    border-radius: 15px;
+    margin: auto;
+    width: 70%;
+    margin-bottom: 5px;
+}
+.container{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 70%;
+    margin: auto;
+}
+.info{
+    display: flex;
+    padding: 5px;
+    border-radius: 15px;
+    margin: auto;
+    width: 70%;
+    margin-bottom: 5px;
+}
+@media(max-width: 700px){
+    .info{
+        text-align: center;
+        display:block;
+    }
+}
+.list{
+padding-left: 15px;
+}
+.list li{
+    color:rgb(70, 69, 68);
+    margin-bottom: 5px;
+}
+.table{
+    width:100%;
+}
+.table td{
+    padding-bottom: 5px;
+}
+.table td:nth-child(2),
+.table td:nth-child(3){
+    color:rgb(70, 69, 68);
+}
+.link-list {
+    padding: 0px;
+}
+.link-list li{
+    list-style: none;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    border-bottom: 1px solid silver;
+    width: 90%;
+}
+.contact h2{
+    text-align: center;
+}
+.form-group label{
+    display: block;
+    color: rgb(70, 69, 68);
+}
+.form-group input, 
+.form-group textarea{
+    width: 90%;
+    border: none;
+    border-bottom: 1px solid silver;
+    color: black;
+    padding: 5px 2px 5px;
+    outline: none;
+    font-family: inherit;
+    background: transparent;
+}
+.row{
+    display: flex;
+    margin-bottom: 15px;
+}
+.row > .form-group{
+    width: 45%;
+}
+.row > .form-group:first-child{
+    margin-right: 20px;
+}
+.text{
+    margin-left: 40px;
+}
+.text h4{
+    margin-bottom: 5px;
+}
+.btn{
+    background:rgb(169, 168, 168);
+    color:rgb(73, 71, 71);
+    border: none;
+    padding: 10px 20px;
+    font-family: inherit;
+    cursor: pointer;
+}
+.btn:hover{
+    opacity: 0.8;
+}
